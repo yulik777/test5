@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: cadetblue;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50px;
+        }
+
+        p {
+            margin: 0;
+            text-align: center;
+        }
+
+        .left {
+            background-color: plum;
+            flex-grow: 6;
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            min-height: 100px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+
+        .text1 {
+            flex-grow: 3;
+            text-align: center;
+
+        }
+
+        .wrapper-top {
+            height: 100px;
+            height: 30px;
+            flex-grow: 1;
+            margin-bottom: 5px;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .wrapper-end {
+            height: 30px;
+            background-color: rosybrown;
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .one {
+            text-align: center;
+            background-color: skyblue;
+            width: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .two {
+            text-align: center;
+            background-color: skyblue;
+            width: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .right {
+            background-color: rgb(116, 38, 92);
+            min-height: 100px;
+            flex-grow: 4;
+            text-align: center;
+
+        }
+
+        main {
+            display: flex;
+        }
+
+        .blok {
+            height: 60px;
+            width: 250px;
+            background-color: rgb(214, 115, 245);
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        footer {
+            height: 100px;
+            background-color: plum;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <p>Бали</p>
+    </header>
+    <main class="main">
+        <div class="left">
+            <p class="text1">Бали — самый популярный и, соответственно, самый развитый в туристическом плане
+                индонезийский
+                курорт. Он привлекает туристов своими первозданными ландшафтами, тропическими лесами, внушительными
+                вулканами Кинтамини, Гунунг-Батур и Гунунг-Агунг, древними храмами и, конечно же, бескрайними пляжами.
+            </p>
+            <div class="wrapper-top">
+                <div class="one">До Денпасара летают прямые рейсы,время в пути 12,5 часов</div>
+                <div class="two">Раскрученный сувенир с Бали — знаменитый кофе лувак</div>
+            </div>
+            <div class="wrapper-end"> Отдыхая на Бали, будет просто глупостью хотя бы не опробовать главный здешний вид
+                спорта — серфинг.
+            </div>
+        </div>
+        <div class="right"> <img src="./assets/images/01fd20b24dcc2466b5a17e262f5069cfc720d5ab.png" alt="bali"> </div>
+    </main>
+    <footer class="footer">
+        <div class="blok">tel. 3900 5010208</div>
+        <div class="blok">e-mail: yulik777@i.ua</div>
+        <div class="blok">adress: Ubud, Bali</div>
+        <div class="blok">Welcome</div>
+    </footer>
+</body>
+
+</html>
